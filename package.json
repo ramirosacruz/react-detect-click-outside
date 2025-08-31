@@ -1,6 +1,6 @@
 {
-  "name": "react-detect-click-outside",
-  "version": "1.1.7",
+  "name": "@flasham/react-detect-click-outside",
+  "version": "1.2.5",
   "description": "Detects clicks outside React components, and also handles keypresses.",
   "main": "dist/index.js",
   "repository": {
@@ -13,8 +13,7 @@
     "test": "jest --verbose",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "prepare": "husky install",
-    "publish": "yarn build && npm publish"
+    "prepare": "husky install"
   },
   "keywords": [
     "react",
@@ -41,10 +40,6 @@
     "rollup-plugin-typescript2": "^0.34.1",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
-  },
-  "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
   },
   "files": [
     "dist"
